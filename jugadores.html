@@ -34,24 +34,24 @@
     </nav>
 
     <div class="container mt-4">
-        <h2>Jugadores del Club Sportivo Bombal</h2>
+        <h2 class="ti">Jugadores del Club Sportivo Bombal</h2>
         <div class="mt-4">
-            <h4>Agregar Jugador</h4>
+            <h4 class="j">Agregar Jugador</h4>
             <form id="player-form">
                 <div class="form-group">
-                    <label for="player-name">Nombre del Jugador:</label>
+                    <label for="player-name" class="no">Nombre del Jugador:</label>
                     <input type="text" class="form-control" id="player-name" required>
                 </div>
                 <div class="form-group">
-                    <label for="player-position">Posición:</label>
+                    <label for="player-position" class="po">Posición:</label>
                     <input type="text" class="form-control" id="player-position" required>
                 </div>
                 <div class="form-group">
-                    <label for="player-age">Edad:</label>
+                    <label for="player-age" class="ed">Edad:</label>
                     <input type="number" class="form-control" id="player-age" required min="16" max="40">
                 </div>
                 <div class="form-group">
-                    <label for="player-number">Número de Camiseta:</label>
+                    <label for="player-number" class="num">Número de Camiseta:</label>
                     <input type="number" class="form-control" id="player-number" required min="1" max="99">
                 </div>
                 <button type="button" class="btn btn-primary" onclick="addPlayer()">Agregar Jugador</button>
